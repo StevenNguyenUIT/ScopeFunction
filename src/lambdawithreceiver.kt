@@ -5,4 +5,12 @@ fun main() {
 
     val b = "test"
     b.printzz(3)
+
+    //more example
+    val printUpperCase: String.(int:Int) -> Unit = {
+        println(this.toUpperCase())
+    }
+
+    val myString = "hello moto"
+    myString.printUpperCase(3)
 }
