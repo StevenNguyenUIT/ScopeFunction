@@ -1,4 +1,7 @@
 package let
+
+import data.Person
+
 //Executing a lambda on non-nullable objects: let
 //
 //Introducing an expression as a variable in local scope: let
@@ -18,5 +21,5 @@ fun main() {
     println(person3.age)
 }
 
-class Person(var name: String, var age: Int)
+
 

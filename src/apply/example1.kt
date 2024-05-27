@@ -1,5 +1,7 @@
 package apply
 
+import data.Person
+
 fun main() {
     val person = Person("Steven", 12, "Bienhoa").apply {
         this.name = "Van"
@@ -7,7 +9,4 @@ fun main() {
         city ="TPHCM"
     }
     println(person)
-
 }
-
-data class Person(var name: String, var age: Int, var city: String)
