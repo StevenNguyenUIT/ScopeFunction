@@ -16,9 +16,10 @@ fun main() {
         println(it.length)
 //        return@also it
     }
-    with(str) {
+    var a = with(str) {
         println(this.length)
         return@with this
     }
+    println(a)
 
 }
