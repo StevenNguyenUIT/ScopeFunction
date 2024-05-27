@@ -1,7 +1,7 @@
 package let
 
 fun main() {
-    val name: String? = "Steven"
+    var name: String? = "Steven"
 
     // Sử dụng let để chỉ thực hiện block nếu name không phải là null
     name?.let {
@@ -10,7 +10,7 @@ fun main() {
 
     //ket hop voi mot lam lambda tra ve 1 gia tri
 
-    val length = name?.let {
+    var length = name?.let {
         it.length
         35   // return at last value
     }
