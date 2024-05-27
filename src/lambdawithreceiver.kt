@@ -13,4 +13,13 @@ fun main() {
 
     val myString = "hello moto"
     myString.printUpperCase(3)
+
+    //more example BuildString
+
+    val message = buildString {
+        append("Hello, ")
+        append("world!")
+    }
+
+    println(message)
 }
